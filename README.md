@@ -1,4 +1,4 @@
-# WkhtmltopdfBinaryGem
+# wkhtmltopdf-binary
 
 This gem provides an adapter interface into loading the correct wkhtmltopdf binary for your architecture.  
 

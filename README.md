@@ -1,12 +1,17 @@
 # WkhtmltopdfBinaryGem
 
-TODO: Write a gem description
+This gem provides an adapter interface into loading the correct wkhtmltopdf binary for your architecture.  
+
+It includes compiled versions for
+# `wkhtmltopdf_darwin_386`
+# `wkhtmltopdf_linux_386`
+# `wkhtmltopdf_linux_x64`
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'wkhtmltopdf_binary_gem'
+    gem 'wkhtmltopdf-binary'
 
 And then execute:
 
@@ -14,11 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install wkhtmltopdf_binary_gem
-
-## Usage
-
-TODO: Write usage instructions here
+    $ gem install wkhtmltopdf-binary
 
 ## Contributing
 

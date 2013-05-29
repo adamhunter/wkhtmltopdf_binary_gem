@@ -3,9 +3,9 @@
 This gem provides an adapter interface into loading the correct wkhtmltopdf binary for your architecture.  
 
 It includes compiled versions for
-# `wkhtmltopdf_darwin_386`
-# `wkhtmltopdf_linux_386`
-# `wkhtmltopdf_linux_x64`
+- `wkhtmltopdf_darwin_386`
+- `wkhtmltopdf_linux_386`
+- `wkhtmltopdf_linux_x64`
 
 ## Installation
 

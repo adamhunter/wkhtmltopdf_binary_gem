@@ -1,3 +1,4 @@
+require "pathname"
 require "wkhtmltopdf/version"
 
 module Wkhtmltopdf
@@ -8,6 +9,6 @@ module Wkhtmltopdf
   end
 
   def path
-    @path ||= spec.bin_file('wkhtmltopdf')
+    @path ||= Pathname.new(spec.full_gem_path).join(spec.bindir, 'wkhtmltopdf')
   end
 end
